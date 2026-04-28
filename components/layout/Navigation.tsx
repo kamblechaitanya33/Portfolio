@@ -26,7 +26,7 @@ export const Navigation: React.FC = () => {
       >
         {/* Logo */}
         <Link href="#hero" className="text-xl font-bold gradient-text">
-          CK
+          NS
         </Link>
 
         {/* Nav Links */}
