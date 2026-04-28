@@ -7,93 +7,39 @@ import { ScrollReveal } from '@/components/animations/ScrollReveal'
 const projects = [
   {
     id: 1,
-    title: 'MSRTC App Redesign',
+    title: 'Hostel & PG App Case Study',
     description:
-      'A complete redesign of the MSRTC mobile application focused on improving usability and enhancing the travel experience.',
+      'A UI/UX case study focused on designing a seamless experience for tenants to find and manage hostel and PG accommodations.',
     image:
-      'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500',
-    link: 'https://www.behance.net/gallery/245845069/MSRTC-APP-REDESIGN',
+      'https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=500',
+    link: 'https://www.behance.net/gallery/244892373/hostel-PG-app-for-tenantsUIUX-CASE-STUDY',
   },
   {
     id: 2,
-    title: 'Bizcharlie Branding',
+    title: 'Tour & Travel Registration Website',
     description:
-      'A branding project focused on building a strong visual identity through logo, typography, and brand guidelines.',
+      'A modern and user-friendly website design for travel registration with a focus on simplicity and smooth user flow.',
     image:
-      'https://images.unsplash.com/photo-1557682250-33bd709cbe85?w=500',
-    link: 'https://www.behance.net/gallery/245811705/Bizcharlie-Branding',
+      'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=500',
+    link: 'https://www.behance.net/gallery/244280891/Tour-and-travel-registration-website',
   },
   {
     id: 3,
-    title: 'Oliv Menu Card',
+    title: 'Tea Brand Logo Case Study',
     description:
-      'Designed a clean and visually appealing menu layout focusing on readability and modern aesthetics.',
+      'A branding project exploring logo design, identity, and visual storytelling for a tea brand.',
     image:
-      'https://images.unsplash.com/photo-1498654896293-37aacf113fd9?w=500',
-    link: 'https://www.behance.net/gallery/245811299/Oliv-Menu-Card',
+      'https://images.unsplash.com/photo-1511920170033-f8396924c348?w=500',
+    link: 'https://www.behance.net/gallery/243162095/tea-logo-design-case-study',
   },
   {
     id: 4,
-    title: 'SafeDoc App Design',
+    title: 'Food Ordering Interface',
     description:
-      'A healthcare app interface designed for easy document storage and seamless user interaction.',
+      'A clean and modern UI design for a food ordering application focused on usability and visual appeal.',
     image:
-      'https://images.unsplash.com/photo-1773332585815-f106a5d6ed6c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    link: 'https://www.behance.net/gallery/242941943/SafeDoc-App-Design',
-  },
-  {
-    id: 5,
-    title: 'Shopkop Campaign',
-    description:
-      'A creative campaign combining visual storytelling and branding for impactful communication.',
-    image:
-      'https://images.unsplash.com/photo-1559028012-481c04fa702d?w=500',
-    link: 'https://www.behance.net/gallery/242896835/Shopkop-Campaign',
-  },
-  {
-    id: 6,
-    title: 'Treadmill Dashboard Design',
-    description:
-      'A modern dashboard UI focusing on fitness tracking, clarity, and intuitive interaction.',
-    image:
-      'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500',
-    link: 'https://www.behance.net/gallery/225614739/Treademill-Dashboard-Design',
-  },
-  {
-    id: 7,
-    title: 'Social Awareness Campaign',
-    description:
-      'Creative visual designs aimed at spreading awareness through strong messaging and visuals.',
-    image:
-      'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500',
-    link: 'https://www.behance.net/gallery/225613415/SOCIAL-AWARENESS',
-  },
-  {
-    id: 8,
-    title: 'Road Safety Poster Series',
-    description:
-      'A bold poster series designed to promote road safety using impactful visuals.',
-    image:
-      'https://images.unsplash.com/photo-1465447142348-e9952c393450?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    link: 'https://www.behance.net/gallery/225612217/Road-Safety-Poster-Series',
-  },
-  {
-    id: 9,
-    title: 'Magazine Design',
-    description:
-      'An editorial design project focusing on layout, typography, and storytelling.',
-    image:
-      'https://images.unsplash.com/photo-1492724441997-5dc865305da7?w=500',
-    link: 'https://www.behance.net/gallery/218063985/Magzine',
-  },
-  {
-    id: 10,
-    title: 'Branding Project',
-    description:
-      'A complete branding exploration creating a cohesive visual identity system.',
-    image:
-      'https://images.unsplash.com/photo-1559028012-481c04fa702d?w=500',
-    link: 'https://www.behance.net/gallery/213801677/BRANDING',
+      'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=500',
+    link: 'https://www.behance.net/gallery/241292149/FOOD-ORDERING-INTERFACE',
   },
 ]
 

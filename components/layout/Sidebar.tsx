@@ -19,17 +19,17 @@ const BehanceIcon = ({ size = 20 }: { size?: number }) => (
 export const Sidebar: React.FC = () => {
   const socialLinks = [
     {
-      href: 'https://www.behance.net/shrutibagad',
+      href: 'https://www.behance.net/nirbhavasawant',
       icon: <BehanceIcon size={20} />,
       label: 'Behance',
     },
     {
-      href: 'https://www.linkedin.com/',
+      href: 'https://www.linkedin.com/in/nirbhavasawant', // update if different
       icon: <Linkedin size={20} />,
       label: 'LinkedIn',
     },
     {
-      href: 'https://wa.me/918446288175',
+      href: 'https://wa.me/91XXXXXXXXXX', // replace with actual number
       icon: <FaWhatsapp size={20} />,
       label: 'WhatsApp',
     },

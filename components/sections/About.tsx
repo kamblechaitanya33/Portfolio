@@ -6,12 +6,12 @@ import { AnimatedHeading } from '@/components/common/AnimatedHeading'
 import { ScrollReveal } from '@/components/animations/ScrollReveal'
 
 const highlights = [
-  'Designing intuitive and meaningful user experiences',
-  'Creating visually engaging and modern interfaces',
-  'Strong focus on usability and user behavior',
-  'Turning ideas into impactful digital products',
-  'Attention to detail and design consistency',
-  'Exploring trends and evolving design styles',
+  'Focused on user-centered and intuitive design',
+  'Clean, modern, and visually engaging interfaces',
+  'Strong understanding of user behavior & usability',
+  'Transforming ideas into impactful digital experiences',
+  'Attention to detail and consistency in design systems',
+  'Constantly exploring trends and evolving design styles',
 ]
 
 export const About: React.FC = () => {
@@ -37,15 +37,15 @@ export const About: React.FC = () => {
             <div className="space-y-4 sm:space-y-6 text-center md:text-left">
 
               <p className="text-sm sm:text-base md:text-lg text-slate-400 leading-relaxed">
-                I’m a UI/UX designer passionate about crafting digital experiences that are simple, meaningful, and visually engaging.
+                I’m <span className="text-cyan-400 font-medium">Nirbhava Sawant</span>, a passionate UI/UX designer focused on creating digital experiences that are simple, meaningful, and visually engaging.
               </p>
 
               <p className="text-sm sm:text-base md:text-lg text-slate-400 leading-relaxed">
-                I believe design is not just about how things look, but how they feel and function. My goal is to create interfaces that connect with users and make their journey effortless.
+                My approach to design goes beyond aesthetics — I believe great design should feel effortless, guide users naturally, and solve real problems.
               </p>
 
               <p className="text-sm sm:text-base md:text-lg text-slate-400 leading-relaxed">
-                From research to final design, I focus on understanding user needs and transforming ideas into intuitive and impactful solutions.
+                I work across research, wireframing, and visual design to transform ideas into intuitive and impactful products that users enjoy interacting with.
               </p>
 
               {/* Tools */}

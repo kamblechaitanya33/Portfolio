@@ -100,10 +100,10 @@ export const Contact: React.FC = () => {
                 <div>
                   <p className="text-sm text-slate-400">Email</p>
                   <a
-                    href="shruti.bagad.design@gmail.com"
+                    href="mailto:nirbhavasawant@gmail.com"
                     className="text-slate-200 hover:text-cyan-400 transition"
                   >
-                    shruti.bagad.design@gmail.com
+                    nirbhavasawant@gmail.com
                   </a>
                 </div>
               </div>
@@ -115,7 +115,7 @@ export const Contact: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-sm text-slate-400">Phone</p>
-                  <p className="text-slate-200">+91 8446288175</p>
+                  <p className="text-slate-200">+91 XXXXX XXXXX</p>
                 </div>
               </div>
 

@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Shruti Bagad',
+  title: 'Nirbhava Sawant',
   description: '',
   generator: 'v0.app',
   keywords: ['Mobile Developer', 'Android', 'Flutter', 'App Development', 'Fintech'],

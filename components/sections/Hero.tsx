@@ -26,10 +26,8 @@ export const Hero: React.FC = () => {
         >
           <h1 className="text-5xl md:text-7xl font-bold text-slate-100 mb-4">
             Hi, I&apos;m{' '}
-            <span className="gradient-text">Shruti Bagad</span>
+            <span className="gradient-text">Nirbhava Sawant</span>
           </h1>
-
-    
         </motion.div>
 
         {/* Role */}
@@ -43,7 +41,7 @@ export const Hero: React.FC = () => {
             UI/UX Designer
           </p>
           <p className="text-lg md:text-xl text-slate-400 mt-2">
-            Crafting intuitive & engaging digital experiences
+            Designing intuitive & meaningful digital experiences
           </p>
         </motion.div>
 
@@ -54,8 +52,8 @@ export const Hero: React.FC = () => {
           transition={{ duration: 0.6, delay: 0.5 }}
           className="text-lg text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          I design clean, user-centered interfaces that blend creativity with functionality.
-          My focus is on creating meaningful experiences that are simple, modern, and impactful.
+          I create clean, user-centered interfaces that combine creativity with usability.
+          My goal is to design products that are simple, engaging, and impactful for real users.
         </motion.p>
 
         {/* CTA Buttons */}

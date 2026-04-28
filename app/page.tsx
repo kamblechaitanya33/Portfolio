@@ -28,7 +28,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-slate-800 py-8 px-4 text-center text-sm text-slate-400">
         <p>
-          © {new Date().getFullYear()} Shruti Bagad. All rights reserved.
+          © {new Date().getFullYear()} Nirbhava Sawant. All rights reserved.
         </p>
 
         <p className="mt-2 text-slate-500">

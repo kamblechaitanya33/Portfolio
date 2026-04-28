@@ -12,18 +12,6 @@ const navLinks = [
   { label: 'Contact', href: '#contact' },
 ]
 
-/* Behance Icon */
-const BehanceIcon = ({ size = 20 }: { size?: number }) => (
-  <svg
-    width={size}
-    height={size}
-    viewBox="0 0 24 24"
-    fill="currentColor"
-  >
-    <path d="M3 7h4c2.2 0 4 1.8 4 4 0 1.3-.6 2.4-1.6 3.1C10.5 14.8 11 15.8 11 17c0 2.2-1.8 4-4 4H3V7zm4 6c.6 0 1-.4 1-1s-.4-1-1-1H5v2h2zm0 4c.6 0 1-.4 1-1s-.4-1-1-1H5v2h2zM14 9h7v2h-7V9zm3.5 3c2.5 0 4.5 2 4.5 4.5S20 21 17.5 21 13 19 13 16.5 15 12 17.5 12zm0 2c-1.4 0-2.5 1.1-2.5 2.5S16.1 19 17.5 19s2.5-1.1 2.5-2.5S18.9 14 17.5 14z" />
-  </svg>
-)
-
 export const Navigation: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false)
 
@@ -38,7 +26,7 @@ export const Navigation: React.FC = () => {
       >
         {/* Logo */}
         <Link href="#hero" className="text-xl font-bold gradient-text">
-          SB
+          CK
         </Link>
 
         {/* Nav Links */}
@@ -55,16 +43,12 @@ export const Navigation: React.FC = () => {
           ))}
         </div>
 
-        {/* Behance Icon */}
-        <motion.a
-          href="https://www.behance.net/shrutibagad"
-          target="_blank"
-          whileHover={{ scale: 1.1 }}
+        {/* CTA Button */}
+        <motion.button
+          whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="p-2 rounded-lg bg-slate-800 text-slate-300 hover:text-cyan-400 border border-slate-700 hover:border-cyan-500 transition-all"
         >
-          <BehanceIcon size={20} />
-        </motion.a>
+        </motion.button>
       </motion.nav>
 
       {/* Mobile Menu Button */}
@@ -99,24 +83,12 @@ export const Navigation: React.FC = () => {
               {link.label}
             </Link>
           ))}
-
-          {/* Behance Link */}
-          <a
-            href="https://www.behance.net/shrutibagad"
-            target="_blank"
-            className="flex items-center justify-center gap-2 mt-2 text-slate-300 hover:text-cyan-400 transition-colors"
-          >
-            <BehanceIcon size={18} />
-            <span className="text-sm">Behance</span>
-          </a>
-
-          {/* CTA Button */}
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="mt-4 px-6 py-2 rounded-lg bg-gradient-to-r from-cyan-500 to-purple-500 text-white text-sm font-medium hover:shadow-lg hover:shadow-cyan-500/30 transition-shadow w-full"
           >
-            Let&apos;s Collaborate
+            Let&apos;s Talk
           </motion.button>
         </div>
       </motion.div>
