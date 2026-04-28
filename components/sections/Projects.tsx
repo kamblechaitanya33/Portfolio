@@ -54,7 +54,7 @@ export const Projects: React.FC = () => {
             className="text-3xl sm:text-4xl md:text-5xl font-bold mb-3"
             gradient
           >
-            Selected Work
+            Projects
           </AnimatedHeading>
 
           <p className="text-base sm:text-lg text-slate-400 max-w-xl mx-auto">
