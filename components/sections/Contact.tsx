@@ -25,6 +25,7 @@ export const Contact: React.FC = () => {
     const { name, value } = e.target
     setFormData((prev) => ({ ...prev, [name]: value }))
   }
+
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
 
@@ -72,11 +73,11 @@ export const Contact: React.FC = () => {
               className="text-3xl sm:text-4xl md:text-5xl font-bold mb-3"
               gradient
             >
-              Let&apos;s Work Together
+              Let&apos;s Create Something Amazing
             </AnimatedHeading>
 
             <p className="text-base sm:text-lg text-slate-400 max-w-xl sm:max-w-2xl mx-auto">
-              Have a project in mind? Let’s build something impactful together.
+              Have an idea, project, or collaboration in mind? Let’s connect and bring meaningful digital experiences to life.
             </p>
           </div>
         </ScrollReveal>
@@ -89,7 +90,7 @@ export const Contact: React.FC = () => {
             <div className="space-y-6">
 
               <h3 className="text-xl sm:text-2xl font-bold text-slate-100">
-                Contact Information
+                Get In Touch
               </h3>
 
               {/* Email */}
@@ -97,13 +98,15 @@ export const Contact: React.FC = () => {
                 <div className="w-11 h-11 rounded-lg bg-slate-800 flex items-center justify-center group-hover:bg-cyan-500/20 transition">
                   <Mail className="text-cyan-400" size={20} />
                 </div>
+
                 <div>
                   <p className="text-sm text-slate-400">Email</p>
+
                   <a
-                    href="mailto:nirbhavasawant@gmail.com"
+                    href="mailto:tanishkashah.design@gmail.com"
                     className="text-slate-200 hover:text-cyan-400 transition"
                   >
-                    nirbhavasawant@gmail.com
+                    tanishkashah.design@gmail.com
                   </a>
                 </div>
               </div>
@@ -113,6 +116,7 @@ export const Contact: React.FC = () => {
                 <div className="w-11 h-11 rounded-lg bg-slate-800 flex items-center justify-center group-hover:bg-cyan-500/20 transition">
                   <Phone className="text-cyan-400" size={20} />
                 </div>
+
                 <div>
                   <p className="text-sm text-slate-400">Phone</p>
                   <p className="text-slate-200">+91 XXXXX XXXXX</p>
@@ -124,12 +128,12 @@ export const Contact: React.FC = () => {
                 <div className="w-11 h-11 rounded-lg bg-slate-800 flex items-center justify-center group-hover:bg-cyan-500/20 transition">
                   <MapPin className="text-cyan-400" size={20} />
                 </div>
+
                 <div>
                   <p className="text-sm text-slate-400">Location</p>
-                  <p className="text-slate-200">Mumbai, India</p>
+                  <p className="text-slate-200">India</p>
                 </div>
               </div>
-
             </div>
           </ScrollReveal>
 
@@ -142,12 +146,13 @@ export const Contact: React.FC = () => {
                 <label className="text-sm text-slate-300">
                   Your Name
                 </label>
+
                 <motion.input
                   type="text"
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  placeholder="Enter Your Name"
+                  placeholder="Enter your name"
                   required
                   whileFocus={{ scale: 1.01 }}
                   className="w-full mt-1 px-4 py-3 rounded-lg bg-slate-800 border border-slate-700 text-slate-100 focus:border-cyan-500 focus:outline-none"
@@ -159,6 +164,7 @@ export const Contact: React.FC = () => {
                 <label className="text-sm text-slate-300">
                   Your Email
                 </label>
+
                 <motion.input
                   type="email"
                   name="email"
@@ -171,38 +177,17 @@ export const Contact: React.FC = () => {
                 />
               </div>
 
-              {/* Service */}
-              {/* <div>
-                <label className="text-sm text-slate-300">
-                  Service Needed
-                </label>
-                <motion.select
-                  name="service"
-                  value={formData.service}
-                  onChange={handleChange}
-                  required
-                  whileFocus={{ scale: 1.01 }}
-                  className="w-full mt-1 px-4 py-3 rounded-lg bg-slate-800 border border-slate-700 text-slate-100 focus:border-cyan-500 focus:outline-none"
-                >
-                  <option value="">Select a service</option>
-                  <option value="erp">ERP & CRM</option>
-                  <option value="api">API Integration</option>
-                  <option value="fintech">Fintech App</option>
-                  <option value="custom">Custom App</option>
-                  <option value="uiux">UI/UX Optimization</option>
-                </motion.select>
-              </div> */}
-
               {/* Message */}
               <div>
                 <label className="text-sm text-slate-300">
                   Your Message
                 </label>
+
                 <motion.textarea
                   name="message"
                   value={formData.message}
                   onChange={handleChange}
-                  placeholder="Tell me about your project..."
+                  placeholder="Tell me about your project or idea..."
                   rows={4}
                   required
                   whileFocus={{ scale: 1.01 }}
@@ -215,10 +200,11 @@ export const Contact: React.FC = () => {
                 type="submit"
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.97 }}
-                className={`w-full py-3 rounded-lg font-semibold flex items-center justify-center gap-2 transition ${submitted
-                  ? 'bg-green-500/20 text-green-300 border border-green-500/50'
-                  : 'bg-gradient-to-r from-cyan-500 to-purple-500 text-white hover:shadow-lg hover:shadow-cyan-500/30'
-                  }`}
+                className={`w-full py-3 rounded-lg font-semibold flex items-center justify-center gap-2 transition ${
+                  submitted
+                    ? 'bg-green-500/20 text-green-300 border border-green-500/50'
+                    : 'bg-gradient-to-r from-cyan-500 to-purple-500 text-white hover:shadow-lg hover:shadow-cyan-500/30'
+                }`}
                 disabled={submitted}
               >
                 {submitted ? (

@@ -6,12 +6,12 @@ import { AnimatedHeading } from '@/components/common/AnimatedHeading'
 import { ScrollReveal } from '@/components/animations/ScrollReveal'
 
 const highlights = [
-  'Focused on user-centered and intuitive design',
-  'Clean, modern, and visually engaging interfaces',
-  'Strong understanding of user behavior & usability',
-  'Transforming ideas into impactful digital experiences',
-  'Attention to detail and consistency in design systems',
-  'Constantly exploring trends and evolving design styles',
+  'Focused on creating user-friendly digital experiences',
+  'Modern, clean, and visually balanced interface designs',
+  'Strong understanding of user psychology & interaction flow',
+  'Turning creative ideas into meaningful user journeys',
+  'Attention to detail with scalable design systems',
+  'Passionate about innovation, trends, and visual storytelling',
 ]
 
 export const About: React.FC = () => {
@@ -37,15 +37,15 @@ export const About: React.FC = () => {
             <div className="space-y-4 sm:space-y-6 text-center md:text-left">
 
               <p className="text-sm sm:text-base md:text-lg text-slate-400 leading-relaxed">
-                I’m <span className="text-cyan-400 font-medium">Nirbhava Sawant</span>, a passionate UI/UX designer focused on creating digital experiences that are simple, meaningful, and visually engaging.
+                I’m <span className="text-cyan-400 font-medium">Tanishka Shah</span>, a creative UI/UX designer passionate about building digital experiences that are intuitive, visually appealing, and user-focused.
               </p>
 
               <p className="text-sm sm:text-base md:text-lg text-slate-400 leading-relaxed">
-                My approach to design goes beyond aesthetics — I believe great design should feel effortless, guide users naturally, and solve real problems.
+                I believe great design is more than just aesthetics — it should create clarity, improve usability, and make every interaction feel seamless and engaging.
               </p>
 
               <p className="text-sm sm:text-base md:text-lg text-slate-400 leading-relaxed">
-                I work across research, wireframing, and visual design to transform ideas into intuitive and impactful products that users enjoy interacting with.
+                From wireframes to polished interfaces, I enjoy transforming concepts into meaningful experiences that connect users with products effortlessly.
               </p>
 
               {/* Tools */}
@@ -56,11 +56,11 @@ export const About: React.FC = () => {
 
                 <ul className="space-y-2 sm:space-y-3">
                   {[
-                    'Figma (UI Design & Prototyping)',
-                    'Wireframing & User Flows',
-                    'User Research & Analysis',
+                    'Figma (UI/UX Design & Prototyping)',
+                    'Wireframing & User Journey Mapping',
+                    'User Research & Design Thinking',
                     'Design Systems & Components',
-                    'Interaction Design',
+                    'Interaction & Visual Design',
                   ].map((skill) => (
                     <li
                       key={skill}

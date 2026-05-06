@@ -16,7 +16,7 @@ export const Hero: React.FC = () => {
       </div>
 
       <div className="max-w-4xl mx-auto text-center">
-        
+
         {/* Heading */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -26,7 +26,7 @@ export const Hero: React.FC = () => {
         >
           <h1 className="text-5xl md:text-7xl font-bold text-slate-100 mb-4">
             Hi, I&apos;m{' '}
-            <span className="gradient-text">Nirbhava Sawant</span>
+            <span className="gradient-text">Tanishka Shah</span>
           </h1>
         </motion.div>
 
@@ -40,8 +40,9 @@ export const Hero: React.FC = () => {
           <p className="text-2xl md:text-3xl text-cyan-400 font-semibold">
             UI/UX Designer
           </p>
+
           <p className="text-lg md:text-xl text-slate-400 mt-2">
-            Designing intuitive & meaningful digital experiences
+            Crafting thoughtful, modern & user-focused digital experiences
           </p>
         </motion.div>
 
@@ -52,8 +53,9 @@ export const Hero: React.FC = () => {
           transition={{ duration: 0.6, delay: 0.5 }}
           className="text-lg text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed"
         >
-          I create clean, user-centered interfaces that combine creativity with usability.
-          My goal is to design products that are simple, engaging, and impactful for real users.
+          I design intuitive interfaces that blend creativity with usability,
+          helping brands and products connect with users through seamless and
+          visually engaging experiences.
         </motion.p>
 
         {/* CTA Buttons */}
@@ -79,7 +81,7 @@ export const Hero: React.FC = () => {
             whileTap={{ scale: 0.95 }}
             className="px-8 py-4 rounded-lg bg-slate-800 text-cyan-400 font-semibold border border-slate-700 hover:border-cyan-500 transition-colors inline-flex items-center gap-2 justify-center"
           >
-            Let&apos;s Collaborate
+            Let&apos;s Connect
           </motion.a>
         </motion.div>
 

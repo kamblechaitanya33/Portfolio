@@ -7,8 +7,8 @@ import { Menu, X } from 'lucide-react'
 
 const navLinks = [
   { label: 'About', href: '#about' },
-  { label: 'Experience', href: '#services' },
-  { label: 'Projects', href: '#projects' },
+  { label: 'Experience', href: '#experience' },
+  { label: 'Case Studies', href: '#projects' },
   { label: 'Contact', href: '#contact' },
 ]
 
@@ -26,7 +26,7 @@ export const Navigation: React.FC = () => {
       >
         {/* Logo */}
         <Link href="#hero" className="text-xl font-bold gradient-text">
-          NS
+          TS
         </Link>
 
         {/* Nav Links */}
@@ -44,11 +44,14 @@ export const Navigation: React.FC = () => {
         </div>
 
         {/* CTA Button */}
-        <motion.button
+        <motion.a
+          href="#contact"
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
+          className="px-5 py-2 rounded-lg bg-gradient-to-r from-cyan-500 to-purple-500 text-white text-sm font-medium hover:shadow-lg hover:shadow-cyan-500/30 transition-shadow"
         >
-        </motion.button>
+          Hire Me
+        </motion.a>
       </motion.nav>
 
       {/* Mobile Menu Button */}
@@ -83,13 +86,15 @@ export const Navigation: React.FC = () => {
               {link.label}
             </Link>
           ))}
-          <motion.button
+
+          <motion.a
+            href="#contact"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="mt-4 px-6 py-2 rounded-lg bg-gradient-to-r from-cyan-500 to-purple-500 text-white text-sm font-medium hover:shadow-lg hover:shadow-cyan-500/30 transition-shadow w-full"
+            className="mt-4 px-6 py-2 rounded-lg bg-gradient-to-r from-cyan-500 to-purple-500 text-white text-sm font-medium hover:shadow-lg hover:shadow-cyan-500/30 transition-shadow w-full text-center"
           >
-            Let&apos;s Talk
-          </motion.button>
+            Let&apos;s Collaborate
+          </motion.a>
         </div>
       </motion.div>
     </>

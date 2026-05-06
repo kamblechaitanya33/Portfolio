@@ -8,6 +8,7 @@ import {
   Image,
   Sparkles,
 } from 'lucide-react'
+
 import { AnimatedHeading } from '@/components/common/AnimatedHeading'
 import { ServiceCard } from '@/components/common/ServiceCard'
 import { ScrollReveal } from '@/components/animations/ScrollReveal'
@@ -17,37 +18,37 @@ const services = [
     icon: <Layout />,
     title: 'UI/UX Design',
     description:
-      'Designing intuitive and user-centered interfaces focused on usability, accessibility, and seamless user experience.',
+      'Designing intuitive, user-focused digital interfaces that combine usability, accessibility, and modern visual aesthetics.',
   },
   {
     icon: <PenTool />,
     title: 'Wireframing & Prototyping',
     description:
-      'Creating wireframes and interactive prototypes to visualize user flows and bring ideas to life before development.',
+      'Creating structured wireframes and interactive prototypes to visualize ideas, user journeys, and product experiences effectively.',
   },
   {
     icon: <Palette />,
-    title: 'Branding & Visual Identity',
+    title: 'Brand Identity Design',
     description:
-      'Building strong brand identities through logo design, typography, color systems, and cohesive visual language.',
+      'Building cohesive visual identities through typography, color systems, logos, and creative branding strategies.',
   },
   {
     icon: <Layers />,
     title: 'Design Systems',
     description:
-      'Developing scalable design systems and reusable components to maintain consistency across products.',
+      'Developing scalable design systems and reusable UI components to maintain consistency across digital products.',
   },
   {
     icon: <Image />,
-    title: 'Visual & Graphic Design',
+    title: 'Visual Design',
     description:
-      'Crafting engaging visuals, posters, social media creatives, and campaign designs with strong visual storytelling.',
+      'Crafting visually engaging creatives, social media graphics, presentations, and digital assets with strong storytelling.',
   },
   {
     icon: <Sparkles />,
-    title: 'Creative Direction',
+    title: 'Creative Strategy',
     description:
-      'Transforming ideas into impactful design solutions with a focus on creativity, clarity, and user engagement.',
+      'Transforming concepts into impactful experiences with a balance of creativity, functionality, and user engagement.',
   },
 ]
 
@@ -62,6 +63,7 @@ export const Services: React.FC = () => {
         {/* Heading */}
         <ScrollReveal direction="up" className="mb-12 sm:mb-16">
           <div className="text-center">
+
             <AnimatedHeading
               className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4"
               gradient
@@ -70,12 +72,15 @@ export const Services: React.FC = () => {
             </AnimatedHeading>
 
             <p className="text-base sm:text-lg text-slate-400 max-w-xl sm:max-w-2xl mx-auto">
-              I create thoughtful and visually engaging design solutions focused on user experience, branding, and digital storytelling.
+              I create modern and meaningful digital experiences through UI/UX
+              design, branding, visual storytelling, and user-centered creative
+              solutions.
             </p>
+
           </div>
         </ScrollReveal>
 
-        {/* Grid */}
+        {/* Services Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {services.map((service, index) => (
             <ServiceCard
@@ -87,6 +92,7 @@ export const Services: React.FC = () => {
             />
           ))}
         </div>
+
       </div>
     </section>
   )

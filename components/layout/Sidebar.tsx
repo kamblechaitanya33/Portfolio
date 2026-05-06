@@ -19,17 +19,17 @@ const BehanceIcon = ({ size = 20 }: { size?: number }) => (
 export const Sidebar: React.FC = () => {
   const socialLinks = [
     {
-      href: 'https://www.behance.net/nirbhavasawant',
+      href: 'https://www.behance.net/tanishkashah3',
       icon: <BehanceIcon size={20} />,
       label: 'Behance',
     },
     {
-      href: 'https://www.linkedin.com/in/nirbhavasawant', // update if different
+      href: 'https://www.linkedin.com/in/tanishka-shah',
       icon: <Linkedin size={20} />,
       label: 'LinkedIn',
     },
     {
-      href: 'https://wa.me/91XXXXXXXXXX', // replace with actual number
+      href: 'https://wa.me/91XXXXXXXXXX', // Replace with actual WhatsApp number
       icon: <FaWhatsapp size={20} />,
       label: 'WhatsApp',
     },
@@ -37,7 +37,7 @@ export const Sidebar: React.FC = () => {
 
   return (
     <div className="hidden md:flex fixed left-0 top-1/2 -translate-y-1/2 z-40 flex-col items-center gap-6 px-6 py-8">
-      
+
       {/* Social Icons */}
       <div className="flex flex-col gap-6">
         {socialLinks.map((link, index) => (
